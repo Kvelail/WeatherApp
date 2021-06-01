@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Kvelail's Weather App</title>
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="weather-heading">Enter the Location for Weather Information</h2>
+        <div class="weather-box">
+            <form class="weather-form">
+                <input type="text" name="city" id="city" placeholder="city">
+                <button class="weather-btn" type="submit">
+                    <i class="fab fa-searchengin fa-3x"></i>
+                </button>
+            </form>
+            <div class="weather-show">
+                <div class="weather-place">
+         
+                </div>
+                <p class="weather-info"></p>
+                <div class="weather-cond">
+                    
+                </div>
+                <div class="temp-title">
+                    <div class="underline"></div>
+                    <span class="temp-text">current temperature</span>
+                </div>
+                <div class="weather-temp">
+                    <span class="current-temp"><span></span>&deg;</span>
+                    <div class="weather-temp-box">
+                        
+                    </div>
+                </div>
+                <div class="weather-title">
+                    <span class="title-text">next 5 days</span>
+                    <div class="underline"></div>
+                </div>
+                <div class="days-box">
+                    <div class="day-box">
+                        <h2 class="day"></h2>
+                        <img src="" alt="icon-1" class="day-img">
+                        <span class="day-max"></span>
+                        <span class="day-min"></span>
+                    </div>
+                    <div class="day-box">
+                        <h2 class="day"></h2>
+                        <img src="" alt="icon-2" class="day-img">
+                        <span class="day-max"></span>
+                        <span class="day-min"></span>
+                    </div>
+                    <div class="day-box">
+                        <h2 class="day"></h2>
+                        <img src="" alt="icon-3" class="day-img">
+                        <span class="day-max"></span>
+                        <span class="day-min"></span>
+                    </div>
+                    <div class="day-box">
+                        <h2 class="day"></h2>
+                        <img src="" alt="icon-4" class="day-img">
+                        <span class="day-max"></span>
+                        <span class="day-min"></span>
+                    </div>
+                    <div class="day-box">
+                        <h2 class="day"></h2>
+                        <img src="" alt="icon-5" class="day-img">
+                        <span class="day-max"></span>
+                        <span class="day-min"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
