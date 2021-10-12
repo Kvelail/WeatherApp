@@ -1,4 +1,4 @@
-const key = 'ATPzeNh221eL3fP5thMnkKHOwISoZOKe';
+const key = 'vmHNMA96eGz649cXs2L9mhrsPgRVNupV';
 
 // Get city key required for weather info
 
